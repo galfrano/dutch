@@ -1,0 +1,33 @@
+.wrapper{padding:20px;}
+
+
+div span{color:#FFF; border-radius:4px; padding:0 8px; cursor:pointer; display:inline-block; margin:4px; text-align:center;}
+.remover, .sizeFolder span{background-color:#800;}
+.tagI, .tagII{font-size:10px; padding:4px; font-weight:bold; display:inline-block; margin:0 5px;}
+.tagI{color:#FFF;}
+span#cloner{background-color:#080;}
+#newTag{display:none;}
+input:disabled, select:disabled{background-color:#CCC;}
+button{padding:5px 10px; font-weight:bold; color:#FFF; border-radius:8px;}
+button.del, button.del:hover{background-color:#800;}
+button.sub, button.sub:hover{background-color:#008;}
+button.new, button.new:hover{background-color:#080;}
+button.back, button.back:hover{background-color:#880;}
+button.edit, button.edit:hover{background-color:#888; padding:2px; font-size:10px;}
+.main-menu a{display:inline-block; margin:0 20px; font-weight:bold; color:#888;}
+div.main-menu span{color:#000;}
+div.main-menu button{margin-left:20px; background-color:#000;}
+.no-border, .no-border td{border:0;}
+.success, .missing{padding:10px; border:solid 1px; margin:10px; display:inline-block;}
+.success{border-color:#080; background-color:#DFD; color:#080;}
+.missing{border-color:#800; background-color:#FDD; color:#800;}
+.tagII{color:#000000;}
+/**/
+.tag-color{max-width:60px; border-radius:10px;}
+form table{max-width:350px !important;}
+#tags select.form-control{display:inline-block; max-width:200px;}
+form th{text-align:center;}
+#dutch-test span{width:150px; display:inline-block;}
+#dutch-test li{padding:8px;}
+.search{padding:10px;}
+.search input{max-height:35px; max-width:150px; margin:0 10px;}
